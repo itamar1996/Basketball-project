@@ -15,43 +15,28 @@
         <h2>My dream team</h2>
         <div class="players-table">
             <div class="players-box" id="PG">
-                <p>POINT GUARD</p>
+                <h3>POINT GUARD</h3>
                 <div class="players-box-det">
-                    <p>5678</p>
-                    <p>9101</p>
-                    <p>1212</p>
                 </div>
             </div>
             <div class="players-box" id="SG">
-                <p>SHOOTING GUARD</p>
+                <h3>SHOOTING GUARD</h3>
                 <div class="players-box-det">
-                    <p>5678</p>
-                    <p>9101</p>
-                    <p>1212</p>
                 </div>
             </div>
             <div class="players-box" id="SF">
-                <p>SMALL FORWARD</p>
+                <h3>SMALL FORWARD</h3>
                 <div class="players-box-det">
-                    <p>5678</p>
-                    <p>9101</p>
-                    <p>1212</p>
                 </div>
             </div>
             <div class="players-box" id="PF">
-                <p>Power Forward</p>
+                <h3>Power Forward</h3>
                 <div class="players-box-det">
-                    <p>5678</p>
-                    <p>9101</p>
-                    <p>1212</p>
                 </div>
             </div>
             <div class="players-box" id="C">
-                <p>CENTER</p>
+                <h3>CENTER</h3>
                 <div class="players-box-det">
-                    <p>5678</p>
-                    <p>9101</p>
-                    <p>1212</p>
                 </div>
             </div>
         </div>
@@ -65,16 +50,26 @@
                 <option value="SG">SG</option>
                 <option value="PG">PG</option>
             </select>
-            <label id="points-label">10000</label>
+            <label id="points-label">Points 10000</label>
             <input type="range" id="points" class="ranges" name="points" min="0" max="20000">
-            <label id="pre3-label">50</label>
+            <label id="pre3-label">Pre3 50</label>
             <input type="range" id="pre3" class="ranges" name="points" min="0" max="100">
-            <label id="pre2-label">50</label>
+            <label id="pre2-label">Pre2 50</label>
             <input type="range" id="pre2" class="ranges" name="points" min="0" max="100">
             <button class="search-players">SEARCH</button>
     </div>
-    <table class="search-players-table">
+    <table class="search-players-table-heder">
         <tr>
+          <th id="player-th" class="th-p" name = "playerName">player</th>
+          <th class="pos-th" >position</th>
+          <th class="th-p" name = "points">points</th>
+          <th class="th-p" name = "twoPercent">FG%</th>
+          <th class="th-p" name = "threePercent">3P%</th>
+          <th id="Action-th">Action</th>
+        </tr>
+    </table>
+    <table class="search-players-table-players">
+        <!-- <tr>
           <th id="player-th">player</th>
           <th>position</th>
           <th>points</th>
@@ -82,6 +77,9 @@
           <th>3P%</th>
           <th id="Action-th">Action</th>
         </tr>
+        <div class="players-section-table">
+
+        </div> -->
         <!-- <tr>
           <td id="player-th">itamar lavan</td>
           <td>CF</td>
