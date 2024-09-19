@@ -43,7 +43,7 @@ body html{
 .search-players-table{
     width: 500px;
     /* height: 600px; */
-    background-color: brown;
+    background-color: rgba(237, 118, 118, 0.467);
 }
 th{
     border: 1px solid;

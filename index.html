@@ -14,49 +14,62 @@
     <div class="my-team">
         <h2>My dream team</h2>
         <div class="players-table">
-            <div class="players-box">
+            <div class="players-box" id="PG">
                 <p>POINT GUARD</p>
-                <p>5678</p>
-                <p>9101</p>
-                <p>1212</p>
+                <div class="players-box-det">
+                    <p>5678</p>
+                    <p>9101</p>
+                    <p>1212</p>
+                </div>
             </div>
-            <div class="players-box">
+            <div class="players-box" id="SG">
                 <p>SHOOTING GUARD</p>
-                <p>5678</p>
-                <p>9101</p>
-                <p>1212</p>
+                <div class="players-box-det">
+                    <p>5678</p>
+                    <p>9101</p>
+                    <p>1212</p>
+                </div>
             </div>
-            <div class="players-box">
+            <div class="players-box" id="SF">
                 <p>SMALL FORWARD</p>
-                <p>5678</p>
-                <p>9101</p>
-                <p>1212</p>
+                <div class="players-box-det">
+                    <p>5678</p>
+                    <p>9101</p>
+                    <p>1212</p>
+                </div>
             </div>
-            <div class="players-box">
+            <div class="players-box" id="PF">
                 <p>Power Forward</p>
-                <p>5678</p>
-                <p>9101</p>
-                <p>1212</p>
+                <div class="players-box-det">
+                    <p>5678</p>
+                    <p>9101</p>
+                    <p>1212</p>
+                </div>
             </div>
-            <div class="players-box">
+            <div class="players-box" id="C">
                 <p>CENTER</p>
-                <p>5678</p>
-                <p>9101</p>
-                <p>1212</p>
+                <div class="players-box-det">
+                    <p>5678</p>
+                    <p>9101</p>
+                    <p>1212</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="search-section">
         <div class="form-filter">
-            <select name="position" id="">
+            <select class="position">
                 <option value="C">C</option>
                 <option value="PF">PF</option>
                 <option value="SF">SF</option>
                 <option value="SG">SG</option>
                 <option value="PG">PG</option>
             </select>
+            <label id="points-label">10000</label>
             <input type="range" id="points" class="ranges" name="points" min="0" max="20000">
+            <label id="pre3-label">50</label>
             <input type="range" id="pre3" class="ranges" name="points" min="0" max="100">
+            <label id="pre2-label">50</label>
             <input type="range" id="pre2" class="ranges" name="points" min="0" max="100">
             <button class="search-players">SEARCH</button>
     </div>
@@ -69,7 +82,7 @@
           <th>3P%</th>
           <th id="Action-th">Action</th>
         </tr>
-        <tr>
+        <!-- <tr>
           <td id="player-th">itamar lavan</td>
           <td>CF</td>
           <td>20089</td>
@@ -78,7 +91,7 @@
           <td id="player-th">
             <button class="add-to-my-team">add itamar to my team</button>
           </td>
-        </tr>
+        </tr> -->
       </table>
     </div>
    
