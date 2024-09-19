@@ -1,0 +1,61 @@
+body html{
+    width: 100%;
+    height: 100%;
+}
+
+.heder{
+    background-color: rgba(94, 94, 204, 0.445);
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.my-team{
+    text-align: center;
+}
+.players-table{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.players-box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: blanchedalmond;
+}
+.search-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-filter{
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.search-players-table{
+    width: 500px;
+    /* height: 600px; */
+    background-color: brown;
+}
+th{
+    border: 1px solid;
+    width: 100px;
+    height: 75px;
+}
+td{
+    border: 1px solid;
+}
+#Action-th{
+    width: 30%;
+}
+#player-th{
+    width: 30%;
+}

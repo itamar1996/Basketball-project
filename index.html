@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+    <div class="heder">
+        <h1>The NBA Dream League</h1>
+    </div>
+    <div class="my-team">
+        <h2>My dream team</h2>
+        <div class="players-table">
+            <div class="players-box">
+                <p>POINT GUARD</p>
+                <p>5678</p>
+                <p>9101</p>
+                <p>1212</p>
+            </div>
+            <div class="players-box">
+                <p>SHOOTING GUARD</p>
+                <p>5678</p>
+                <p>9101</p>
+                <p>1212</p>
+            </div>
+            <div class="players-box">
+                <p>SMALL FORWARD</p>
+                <p>5678</p>
+                <p>9101</p>
+                <p>1212</p>
+            </div>
+            <div class="players-box">
+                <p>Power Forward</p>
+                <p>5678</p>
+                <p>9101</p>
+                <p>1212</p>
+            </div>
+            <div class="players-box">
+                <p>CENTER</p>
+                <p>5678</p>
+                <p>9101</p>
+                <p>1212</p>
+            </div>
+        </div>
+    </div>
+    <div class="search-section">
+        <div class="form-filter">
+            <select name="position" id="">
+                <option value="C">C</option>
+                <option value="PF">PF</option>
+                <option value="SF">SF</option>
+                <option value="SG">SG</option>
+                <option value="PG">PG</option>
+            </select>
+            <input type="range" id="points" class="ranges" name="points" min="0" max="20000">
+            <input type="range" id="pre3" class="ranges" name="points" min="0" max="100">
+            <input type="range" id="pre2" class="ranges" name="points" min="0" max="100">
+            <button class="search-players">SEARCH</button>
+    </div>
+    <table class="search-players-table">
+        <tr>
+          <th id="player-th">player</th>
+          <th>position</th>
+          <th>points</th>
+          <th>FG%</th>
+          <th>3P%</th>
+          <th id="Action-th">Action</th>
+        </tr>
+        <tr>
+          <td id="player-th">itamar lavan</td>
+          <td>CF</td>
+          <td>20089</td>
+          <td>78</td>
+          <td>87</td>
+          <td id="player-th">
+            <button class="add-to-my-team">add itamar to my team</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+   
+</body>
+</html>
