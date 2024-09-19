@@ -153,10 +153,10 @@ document.querySelector(".search-players")?.addEventListener("click",()=>GetPlaye
 const sortPlayersArr = <T>(playersarr: Player[], type: keyof Player): Player[] => {
     return playersarr.sort((a, b) => {
         if (a[type] < b[type]) {
-            return -1;
+            return 1;
         }
         if (a[type] > b[type]) {
-            return 1;
+            return -1;
         }
         return 0;
     });
